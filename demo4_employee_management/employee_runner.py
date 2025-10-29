@@ -14,3 +14,10 @@ emp2.display_employee_details()
 emp1.display_employee_details()
 
 employee_module.Employee.display_company_Details()
+
+
+id =emp2.get_emp_id
+print(id)
+
+print(emp1.get_emp_id)
+

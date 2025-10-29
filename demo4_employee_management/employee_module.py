@@ -17,4 +17,11 @@ class Employee:
     def display_company_Details():
         print(Employee.company_name)
 
+    @property
+    def get_emp_id(self):
+        return self.emp_id
+
+
+
+
 

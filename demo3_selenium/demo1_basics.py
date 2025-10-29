@@ -23,6 +23,7 @@ driver.find_element(By.ID,"email").send_keys("hello@gmail.com")
 
 time.sleep(5)
 
+print(driver.current_url)
 driver.quit()
 
 
