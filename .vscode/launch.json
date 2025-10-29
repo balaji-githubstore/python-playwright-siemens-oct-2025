@@ -1,0 +1,12 @@
+        {
+            "version": "0.2.0",
+            "configurations": [
+                {
+                    "name": "Python: Current File",
+                    "type": "python",
+                    "request": "launch",
+                    "program": "${file}",
+                    "cwd": "${workspaceFolder}/main" // Adjust if your main script is in a subfolder
+                }
+            ]
+        }
