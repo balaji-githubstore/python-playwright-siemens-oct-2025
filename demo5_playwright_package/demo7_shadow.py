@@ -14,5 +14,13 @@ with sync_playwright() as playwright:
 
     page.locator("css=button[data-testid='minimize-button']").click()
 
+    # using text to find
+    page.locator("text=Create an account").click()
+
+    page.locator("a:has-text('Create an account')").click()
+
+    page.locator("a",has_text='Create an account').click()
+
+
     time.sleep(5)
 
